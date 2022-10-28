@@ -1,6 +1,6 @@
 #Emma Stavis
 #7/2022
-#NOTE!! This code was written for Fetterman for PA. In order for future users' ease, this code was written to prioritize making it intuitive over optimized 
+#NOTE!! This code was written for a campaign. In order for future users' ease, this code was written to prioritize making it intuitive over optimized 
 
 import pandas as pd
 from fuzzywuzzy import fuzz
