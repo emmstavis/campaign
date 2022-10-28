@@ -1,7 +1,7 @@
 Campaign Programs
 
-donor_res: scrapes Open Secrets to find potential donors
+donor_res: scrapes Open Secrets to find potential donors based on given criteria
 
-dupe_finder: exports csv with all duplicates within exported csv from database
+dupe_finder: exports csv with all duplicates within given csv from donor database
 
-fec_dupe_finder: finds duplicates within exported csv from database and exported FEC files
+fec_dupe_finder: finds duplicates within csv from database and FEC files
