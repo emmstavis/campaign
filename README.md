@@ -1,7 +1,9 @@
-Campaign Programs
+**Campaign Programs**
 
-donor_res: scrapes Open Secrets to find potential donors based on given criteria
+These were programs I built for a campaign in the summer of 2022 to assist with donor reserach and cleaning up the donor database. The programs were generally designed to prioritize code readability over optimization so that future users with less background could adjust functionality as needed.
 
-dupe_finder: exports csv with all duplicates within given csv from donor database
+**donor_res:** scrapes Open Secrets to find potential donors based on given criteria
 
-fec_dupe_finder: finds duplicates within csv from database and FEC files
+**dupe_finder:** exports csv with all duplicates within given csv from donor database
+
+**fec_dupe_finder:** finds duplicates within csv from database and FEC files
