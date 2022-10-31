@@ -200,7 +200,7 @@ def sum_and_summary(contribution_data, include_candidates, failed_flag):
         return {}
     
     current_year = contribution_data[0][4][-4:]
-    research_data = {} # year : year's research string, e.g. 2022 : '2022: Joe Biden $3000; Fetterman $4000'
+    research_data = {} # year : year's research string, e.g. 2022 : '2022: Joe Biden $3000; Candidate $4000'
     year_data = {} # candidate : amount, e.g. 'Biden, Joe (D)' : 3000
 
     #Go through each entry, adding information to year_data dictionary where key:value is candidate:amount.
@@ -244,7 +244,7 @@ def sum_and_summary(contribution_data, include_candidates, failed_flag):
         year_string = year_string[:len(year_string) - 2] + '  ||  '
         research_data[current_year] = year_string
     
-    #Return research_data, which should have key:value pairs like: 2022 : '2022: Joe Biden $3000; Fetterman $4000'
+    #Return research_data, which should have key:value pairs like: 2022 : '2022: Joe Biden $3000; Candidate $4000'
     return research_data
 
 
