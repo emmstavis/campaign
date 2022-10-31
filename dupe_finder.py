@@ -76,7 +76,7 @@ def match(hash_options, person_info):
                     return [0, potential_match]
                 elif (fuzz.token_set_ratio(potential_match['Address'].lower(), person_info['Address'].lower()) >= 90) or (fuzz.partial_ratio(potential_match['Address'].lower(), person_info['Address'].lower()) >= 90):
                     return [0, potential_match]
-                elif (potential_match['PreferredEmail'] == person_info['PreferredEmail'] and person_info['PreferredEmail'] != 'info@johnfetterman.com') or potential_match['Cell Phone'] == person_info['Cell Phone'] or potential_match['Home Phone'] == person_info['Home Phone']:
+                elif (potential_match['PreferredEmail'] == person_info['PreferredEmail'] and person_info['PreferredEmail'] != 'info@CAMPAIGN.com') or potential_match['Cell Phone'] == person_info['Cell Phone'] or potential_match['Home Phone'] == person_info['Home Phone']:
                     return [0, potential_match]
         except:
             return [-1, '']
